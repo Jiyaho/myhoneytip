@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "sparta-myhoneytip-jiho",
+    "slug": "sparta-myhoneytip-jiho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "buildNumber": "1.0.0",
+      "bundleIdentifier": "com.myhoneytip.gun",
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7954659433767365~7672407978"
+      }
+    },
+    "android": {
+      "package": "com.myhoneytip.gun",
+      "versionCode": 1,
+      "config": {
+        "googleMobileAdsAppId": "ca-app-pub-7954659433767365~4014318278"
+      }
+    }
+  }
+}
